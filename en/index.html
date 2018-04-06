@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Windsurfing lab</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Windsurfing Lab develop sensors to visualize sailing skills and player position, and provide services to real-time race information to audience.">
+  <meta name="keywords" content="Wind surfing,Sailing,Windsurfing">
+  <!--OGP対応-->
+  <meta property="og:title" content="Windsurfing lab">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://windsurfing-lab.com/en/index.html">
+  <meta property="og:image" content="https://@@common.fqdn/img/ogptag.png">
+  <meta property="og:site_name" content="Windsurfing lab">
+  <meta property="og:description" content="Windsurfing Lab develop sensors to visualize sailing skills and player position, and provide services to real-time race information to audience.">
+  <!--Twitter-->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Windsurfing lab">
+  <meta name="twitter:description" content="Windsurfing Lab develop sensors to visualize sailing skills and player position, and provide services to real-time race information to audience.">
+  <meta name="twitter:image" content="https://@@common.fqdn/img/ogptag.png">
+
+  <script src="../js/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <script src="../js/wslab.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/wslab.css">
+</head>
+
+<body>
+  <header class="wslab-header">
+    <h2 class="wslab-header-title">Windsurﬁng Lab</h2>
+    <div class="wslab-flex-box">
+      <ul class="wslab-header-tab">
+        <li class="wslab-selected"><a href="index.html">CREWING</a></li>
+        <li><a href="gullcast.html">GULLCAST</a></li>
+      </ul>
+      <ul class="wslab-header-icon-list">
+        <li>
+          <a href="https://www.facebook.com/windsurfinglab/">
+            <img src="../img/icon-facebook.svg" alt="Facebook">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/sensefoil/">
+            <img src="../img/icon-instagram.svg" alt="Instagram">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <ul class="wslab-switch-language">
+      <li><a href="../index.html">日本語</a></li>
+      <li class="wslab-selected"><a href="index.html">English</a></li>
+    </ul>
+    <a id="wslab-open-menu" class="wslab-header-humburger-menu">
+      <img src="../img/icon-humburger.svg" alt="menu">
+    </a>
+  </header>
+  <div class="wslab-main-area">
+    <section class="wslab-title-top">
+      <video poster="../img/bg-title.jpg" class="wslab-bg-movie" autoplay loop>
+        <source src="../mov/bg-movie.mp4" type="video/mp4">
+      </video>
+      <div class="wslab-title-top-inner">
+        <img src="../img/title-logo.svg" alt="MOVE FASTER">
+        <h3 class="wslab-title">MOVE FASTER</h3>
+        <p class="wslab-sub-title">Windsurfing training system</p>
+        <a class="wslab-link" href="mailto:fj-windsurfinglab@dl.jp.fujitsu.com?subject=WindsurfingLab_CREWING&body=【Name】%0D%0A【Country】%0D%0A【Category】%0D%0A　Purchase/Collaboration/Mass Media/Other %0D%0A %0D%0A【Message】">CONTACT</a>
+      </div>
+      <div class="wslab-top-attention">
+        <p>A trial is currently being conducted with some users. <br>If you would like to make a purchase or get detailed product
+          information, <br>please contact us with the address at the bottom of the page.
+        </p>
+        <a id="wslab-scroll-contact">
+          <img src="../img/icon-arrow.svg" alt="お問い合わせへ移動">
+        </a>
+      </div>
+    </section>
+    <section class="wslab-section wslab-product">
+      <div>
+        <h5 class="wslab-section-label wslab-impressions">CREWING is a solution aiming to improve their performance in the shortest period possible for windsurfer.
+        </h5>
+      </div>
+    </section>
+    <section class="wslab-section wslab-about">
+      <div class="wslab-flex-box">
+        <div class="wslab-flex-box-middle">
+          <h5 class="wslab-section-label">CREWING measures your "performance" and lets you see it at a glance.</h5>
+          <p>
+            It records your sailing skill on the cloud immediately using sailing sensors. And it shows your sailing performance from
+            every aspects using your sailing data that include GPS, Sail motion data, Board control data and Wind speed and
+            direction data.
+          </p>
+          <div class="wslab-flex-image-wrapper">
+            <img src="../img/performance-image.svg" alt="performance">
+          </div>
+        </div>
+        <div class="wslab-flex-box-middle">
+          <h5 class="wslab-section-label">CREWING knows what "training" is best for you</h5>
+          <p>
+            It figures out your performance trends by comparing practice data with your data and professional data. CREWING helps you
+            improve your performance in a scientific way that does not depend on intuition alone.
+          </p>
+          <div class="wslab-flex-image-wrapper">
+            <img src="../img/training-image.svg" alt="training">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wslab-section wslab-sensors">
+      <div>
+        <div class="wslab-flex-box">
+          <div class="wslab-flex-box-image">
+            <img src="../img/sensor-image.png" alt="Sail sensor,Board sensor">
+          </div>
+          <div class="wslab-flex-box-middle">
+            <div class="wslab-flex-box-column">
+              <div class="wslab-flex-box-sensor">
+                <div class="wslab-flex-sensor-image">
+                  <img src="../img/sail-sensor.png" alt="Sail sensor">
+                </div>
+                <div class="wslab-flex-sensor-text">
+                  <h5 class="wslab-section-label">Sail sensor</h5>
+                  <p>The sail sensor can be attached to your mast. It measures your performance by sensing the angle of sail
+                    operation.
+                  </p>
+                </div>
+              </div>
+              <div class="wslab-flex-box-sensor">
+                <div class="wslab-flex-sensor-image">
+                  <img src="../img/board-sensor.png" alt="Board sensor">
+                </div>
+                <div class="wslab-flex-sensor-text">
+                  <h5 class="wslab-section-label">Board sensor</h5>
+                  <p>The board sensor can be easily attached to the board, sensing its inclination and speed. Thanks to its
+                    small size, it does not hinder maneuverability.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wslab-section wslab-application">
+      <div>
+        <div class="wslab-flex-box">
+          <div class="wslab-flex-box-middle">
+            <h5 class="wslab-section-label">CREWING application</h5>
+            <p>CREWING supports every aspect of wind surfing and data recordings, performance analyses and recommendations of
+              operability can be viewed from the application.</p>
+            <p> Currently, we are conducting a trial with some users. If you would like detailed information, please contact
+              us at the address at the bottom of the page.</p>
+          </div>
+          <div class="wslab-flex-box-image">
+            <div class="wslab-flex-image-wrapper">
+              <img src="../img/crewing-app.png" alt="CREWING  web application">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wslab-section wslab-partner">
+      <div>
+        <h5 class="wslab-section-label">User and partner who supports CREWING</h5>
+        <ul class="wslab-partner-list">
+          <li class="wslab-jwa">
+            <img src="../img/logo-jwa.png" alt="Japan Windsurging Association">
+          </li>
+          <li class="wslab-nus">
+            <img src="../img/logo-nus.png" alt="National University of Singapore">
+            <a href="https://ssi.nus.edu.sg/smart-sail/" target="_blank" class="wslab-parner-link">
+              Smart Sailing
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="wslab-section wslab-padding-small">
+      <div class="wslab-flex-impressions-box">
+        <div>
+          <p class="wslab-impressions">
+            It is very useful for improving sailing skills because I can compare with other players numerically.
+            <span>Former Japan national team</span>
+          </p>
+        </div>
+        <div>
+          <p class="wslab-impressions">
+            The consciousness was changed. By quantifying my skills, I could clearly set my own goal.
+            <span>Active athlete </span>
+          </p>
+        </div>
+        <div>
+          <p class="wslab-impressions">
+            Windsurfing is a difficult sport to instruct skills. However, It is possible to express the difference in movement that can
+            not be translated into languages.
+            <span>Coarch</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="wslab-section wslab-point">
+      <div class="wslab-flex-box">
+        <div class="wslab-flex-box-image">
+          <img src="../img/windsurfing01.jpg" alt="">
+        </div>
+        <div class="wslab-flex-box-middle">
+          <div>
+            <div class="wslab-section-icon wslab-graph"></div>
+            <h5 class="wslab-section-label"><span class="wslab-point-number">1</span>Just attach it to your tool and you can start using CREWING</h5>
+            <p>You can easily install it on the wind surfing tool you have with both the sail sensor and the board sensor. Since
+              it is designed to be compact so as to affect the wind and weight as little as possible, it will not interfere
+              with the competition.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wslab-section wslab-point">
+      <div class="wslab-flex-box">
+        <div class="wslab-flex-box-image">
+          <img src="../img/windsurfing02.jpg" alt="">
+        </div>
+        <div class="wslab-flex-box-middle">
+          <div>
+            <div class="wslab-section-icon wslab-recording"></div>
+            <h5 class="wslab-section-label"><span class="wslab-point-number">2</span>Automatically record your exercise data as a log</h5>
+            <p>Turn on the sensor switch when preparing before you wind surf. Afterwards, you just wind surf as usual. The sensor
+              automatically determines exercises and legs, and measures your performance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wslab-section wslab-point">
+      <div class="wslab-flex-box">
+        <div class="wslab-flex-box-image">
+          <img src="../img/windsurfing03.jpg">
+        </div>
+        <div class="wslab-flex-box-middle">
+          <div>
+            <div class="wslab-section-icon wslab-training"></div>
+            <h5 class="wslab-section-label"><span class="wslab-point-number">3</span>You can use it for your next training session</h5>
+            <p>After practice you can see that day's performance right away. Showing maximum speed and average speed, it allows
+              you to intuitively see things that did not work. CREWING specifies points to focus on for the next training
+              session.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wslab-section wslab-product">
+      <div>
+        <h5 class="wslab-section-label wslab-impressions">CREWING help you to aim for the next stage
+        </h5>
+      </div>
+    </section>
+    <section class="wslab-section wslab-contact">
+      <div class="wslab-form-wrapper">
+        <h5 class="wslab-section-label">If you would like to make a purchase or get detailed product information, please contact us with the form below</h5>
+        <a class="wslab-link wslab-wide" href="mailto:fj-windsurfinglab@dl.jp.fujitsu.com?subject=WindsurfingLab_CREWING&body=【Name】%0D%0A【Country】%0D%0A【Category】%0D%0A　Purchase/Collaboration/Mass Media/Other %0D%0A %0D%0A【Message】">fj-windsurfinglab@dl.jp.fujitsu.com</a>
+      </div>
+    </section>
+    <section class="wslab-footer-link">
+      <div>
+        <a href="gullcast.html">
+            GULLCAST
+          <p>Windsurfing race navigation system</p>
+        </a>
+      </div>
+    </section>
+    <footer class="wslab-footer">
+      <div class="wslab-flex-box">
+        <ul class="wslab-header-icon-list">
+          <li>
+            <a href="https://www.facebook.com/windsurfinglab/">
+              <img src="../img/icon-facebook-white.svg" alt="Facebook">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/sensefoil/">
+              <img src="../img/icon-instagram-white.svg" alt="Instagram">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="wslab-copyright">Copyright ©︎ 2018 Windsurfing Lab</p>
+    </footer>
+  </div>
+  <div id="wslab-modal-menu" class="wslab-overlay-menu">
+    <div class="wslab-overlay-menu-inner">
+      <a id="wslab-modal-close" class="wslab-menu-close">
+        <img src="../img/icon-close.svg" alt="close">
+      </a>
+      <ul class="wslab-header-tab">
+        <li><a href="index.html">CREWING</a></li>
+        <li><a href="gullcast.html">GULLCAST</a></li>
+      </ul>
+      <ul class="wslab-switch-language">
+        <li><a href="../index.html">日本語</a></li>
+        <li class="wslab-selected"><a href="index.html">English</a></li>
+      </ul>
+      <ul class="wslab-header-icon-list">
+        <li>
+          <a href="https://www.facebook.com/windsurfinglab/">
+            <img src="../img/icon-facebook.svg" alt="Facebook">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/sensefoil/">
+            <img src="../img/icon-instagram.svg" alt="Instagram">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
